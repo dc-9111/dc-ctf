@@ -1,61 +1,64 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link
-      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <title>Dc-ctf</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en">
 
-    <script src="main.js"></script>
-  </head>
-  <body>
-    <div class="bg-black">
-      <header class="text-white body-font">
-        <div
-          class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
-        >
-          <a
-            class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
-          >
-            <span class="ml-3 text-xl text-white">DC CTF</span>
-          </a>
-          <nav
-            class="md:ml-auto flex flex-wrap items-center text-base justify-center"
-          >
-            <a href="#" class="mr-5 hover:text-blue-700">Home</a>
-            <a href="#" class="mr-5 hover:text-blue-700">About</a>
-            <a href="#" class="mr-5 hover:text-blue-700">Scoreboard</a>
-          </nav>
-        </div>
-      </header>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CTF - DC9111</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
 
-      <section class="text-gray-500 bg-black body-font">
-        <div
-          class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
-        >
-          <div class="text-center lg:w-2/3 w-full">
-            <h1 class="text-6xl text-gray-200 font-bold">
-              DC9111
-            </h1>
-            <p class="leading-relaxed mb-8">
-              For the Hackers,By the Hackers
-            </p>
-            <div class="flex justify-center">
-              <a href="#"
-                ><span class="ml-3 text-xl text-indigo-700">CLICK HERE</span
-                ><span class="text-xl text-gray-200"> TO JOIN</span>
-              </a>
-            </div>
-            <div class="text-yellow-400 text-xl">
-              0 X 0 3
-            </div>
-          </div>
+<body>
+    <section class="hero has-background-black-ter is-fullheight is-fullwidth">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head has-background-black-bis">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" id="title">DC CTF</a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item is-active" href="https://defcon9111.org/">
+                                Home
+                            </a>
+                            <a class="navbar-item" href="https://defcon9111.org/#about">
+                                About
+                            </a>
+                            <a class="navbar-item">
+                                Scoreboard
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-      </section>
-    </div>
-  </body>
+
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="ctf-title title has-text-white is-1" id="title">
+                    DC9111
+                </h1>
+                <h2 class="subtitle">
+                    For the Hackers, By the Hackers
+                </h2>
+            </div>
+        </div>
+
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot has-text-centered">
+            <span class="join is-uppercase has-text-weight-bold"><a href="">Click Here</a> to Join</span>
+            <p>0x03</p>
+        </div>
+    </section>
+</body>
+<script src="main.js"></script>
+
 </html>

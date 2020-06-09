@@ -1,0 +1,25 @@
+{
+    "name": "defcon-delhi-ctf",
+    "version": "1.0.0",
+    "description": "DEF CON 9111 CTF",
+    "main": "index.js",
+    "dependencies": {
+      "bulma": "^0.8.0"
+    },
+    "devDependencies": {
+      "bulma": "^0.8.0",
+      "jquery": "^3.4.1",
+      "node-sass": "^4.13.1"
+    },
+    "scripts": {
+      "css-build": "node-sass main.scss css/main.css --output-style compressed --watch",
+      "start": "npm run css-build"
+    },
+    "keywords": [
+      "defcon",
+      "delhi",
+      "dc-9111-ctf"
+    ],
+    "author": "Harsh Trivedi",
+    "license": "ISC"
+  }
