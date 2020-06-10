@@ -53,13 +53,14 @@ $input-shadow: none;
 
 a{
     color: $beige-lighter!important;
-    transition: all 0.25s ease;
+    transition: all 0.5s ease;
     &:hover {
         color: $green!important;
     }
 }
 
 #nav {
+    font-family: 'Press Start 2P', cursive;
     background-color: black;
     .navbar {
         background-color: black;
@@ -74,6 +75,8 @@ a{
 
 .hero-foot {
     padding: 2.5rem;
+    z-index: 100;
+    position: relative;
     .join {
         letter-spacing: 0.25vmax;
     }
@@ -84,4 +87,67 @@ a{
             color: $green;
         }
     }
+}
+
+.footer {
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    z-index: 1;
+    padding: 0.25rem;
+    .container {
+        padding: 0.5rem;
+        align-self: center;
+    }
+
+    a {
+        color: white;
+
+        &:hover {
+            color: $green !important;
+        }
+
+        &:active {
+            color: $pink !important;
+        }
+    }
+}
+
+#copyright{
+    padding: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+#bgvid {
+    position: absolute;
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    transform: scale(3);
+}
+
+.hero-video {
+    opacity: 0.25;
+    z-index: 1;
+}
+
+#hero {
+    position: relative;
+    z-index: 3;
+    margin-top: 1.5rem; 
+    .title {
+        font-family: 'Press Start 2P', cursive !important;
+        letter-spacing: 0.15vmax;
+    }
+}
+
+#hero-main {
+    z-index: 0;
+    background-image: url(https://raw.githubusercontent.com/dc-9111/website/master/images/DSC07751.JPG);
+    position: absolute;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
