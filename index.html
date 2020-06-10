@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <section class="hero has-background-black-ter is-fullheight is-fullwidth">
+    <section class="hero has-background-black is-fullheight is-fullwidth">
         <!-- Hero head: will stick at the top -->
-        <div class="hero-head has-background-black-bis">
+        <div class="hero-head" id="nav">
             <nav class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
@@ -25,13 +25,13 @@
                     </div>
                     <div id="navbarMenuHeroA" class="navbar-menu">
                         <div class="navbar-end">
-                            <a class="navbar-item is-active" href="https://defcon9111.org/">
+                            <a target="_blank" class="navbar-item is-active" href="https://defcon9111.org/">
                                 Home
                             </a>
-                            <a class="navbar-item" href="https://defcon9111.org/#about">
+                            <a target="_blank" class="navbar-item" href="https://defcon9111.org/#about">
                                 About
                             </a>
-                            <a class="navbar-item">
+                            <a target="_blank" class="navbar-item">
                                 Scoreboard
                             </a>
                         </div>
@@ -43,10 +43,11 @@
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="ctf-title title has-text-white is-1" id="title">
+                <span class="ctf-title title has-text-white is-1" id="title">
                     DC9111
-                </h1>
-                <h2 class="subtitle">
+                </span>
+                <hr>
+                <h2 class="subtitle is-4 has-text-grey-lighter">
                     For the Hackers, By the Hackers
                 </h2>
             </div>
@@ -54,8 +55,9 @@
 
         <!-- Hero footer: will stick at the bottom -->
         <div class="hero-foot has-text-centered">
-            <span class="join is-uppercase has-text-weight-bold"><a href="">Click Here</a> to Join</span>
-            <p>0x03</p>
+            <div class="join is-uppercase has-text-weight-bold title is-5 has-text-grey"><a href="">Click Here</a> to Join</div>
+            <br>
+            <div class="zerothree">0x03</div>
         </div>
     </section>
 </body>

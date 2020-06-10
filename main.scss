@@ -45,21 +45,29 @@ $input-shadow: none;
 
 .ctf-title {
     letter-spacing: 0.25vmax;
-}
-
-a{
-    color: $beige-lighter!important;
+    transition: all 1s ease;
     &:hover {
         color: $green!important;
     }
 }
 
-.navbar {
+a{
+    color: $beige-lighter!important;
+    transition: all 0.25s ease;
+    &:hover {
+        color: $green!important;
+    }
+}
+
+#nav {
     background-color: black;
-    .navbar-menu {
+    .navbar {
         background-color: black;
-        .navbar-item {
+        .navbar-menu {
             background-color: black;
+            .navbar-item {
+                background-color: black;
+            }
         }
     }
 }
@@ -68,5 +76,12 @@ a{
     padding: 2.5rem;
     .join {
         letter-spacing: 0.25vmax;
+    }
+    .zerothree {
+        font-family: 'Press Start 2P', cursive!important;
+        transition: all 1s ease;
+        &:hover {
+            color: $green;
+        }
     }
 }
