@@ -151,3 +151,26 @@ a{
     background-position: center;
     background-size: cover;
 }
+
+.scores{
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    text-align: center;
+    line-height: 2.5rem;
+    li{
+        display: table;
+        margin: inherit;
+    }
+    .name{
+        margin: auto 0.5rem;
+        &:hover{
+            color: $green;
+        }
+    }
+    .score{
+        margin: auto 0.5rem;
+        &:hover{
+            color: $pink;
+        }
+    }
+}
