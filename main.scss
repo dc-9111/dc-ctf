@@ -2,7 +2,8 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
 
 // Set your brand colors
 $purple: #8A4D76;
@@ -40,7 +41,7 @@ $input-shadow: none;
 @import "node_modules/bulma/sass/layout/section.sass";
 
 #title {
-    font-family: 'Press Start 2P', cursive!important;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .ctf-title {
@@ -60,7 +61,7 @@ a{
 }
 
 #nav {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rajdhani', sans-serif;
     background-color: black;
     .navbar {
         background-color: black;
@@ -81,7 +82,7 @@ a{
         letter-spacing: 0.25vmax;
     }
     .zerothree {
-        font-family: 'Press Start 2P', cursive!important;
+        font-family: 'Rajdhani', sans-serif;
         transition: all 1s ease;
         &:hover {
             color: $green;
@@ -90,7 +91,7 @@ a{
 }
 
 .footer {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rajdhani', sans-serif;
     position: relative;
     z-index: 1;
     padding: 0.25rem;
@@ -136,7 +137,7 @@ a{
     z-index: 3;
     margin-top: 1.5rem; 
     .title {
-        font-family: 'Press Start 2P', cursive !important;
+        font-family: 'Rajdhani', sans-serif;
         letter-spacing: 0.15vmax;
     }
 }
