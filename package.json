@@ -9,7 +9,7 @@
   "devDependencies": {
     "bulma": "^0.8.0",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "css-build": "node-sass main.scss css/main.css --output-style compressed --watch",
